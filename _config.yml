@@ -1,19 +1,19 @@
 # Site settings
 title:  JeongYunHye's BLOG
-url: "http://yunho0130.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "http://jeongyunhye.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 timezone: Asia/Seoul
 description: >
   description
 
 # Your information
-email: yunho0130@gmail.com
-author: 맹개발
+email: kjjyh1004@naver.com
+author: 정윤혜
 # avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 avatar: "//github.com/yunho0130/yunho0130.github.io/blob/master/_jpg/yunhomaeng.png"
-profile: <br> 겸손하게 하루하루 배운 것들을 나누는 공간
+profile: <br> 
 #twitter_username: twitter_username
-github_username:  yunho0130
+github_username:  JeongYunHye
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
