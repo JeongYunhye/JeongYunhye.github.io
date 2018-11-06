@@ -42,8 +42,7 @@ while vending_condition:
     else:
         print "자동판매기 [현재금액 {0}원]".format(total_money) 
         # hidden code = 0130
-        print "[1.{}: 재고{}개 2.{}: 재고{}개 3.동전넣기 4.동전반환]".format(item1_name, 
-item1_num, item2_name, item2_num)
+        print "[1.{}: 재고{}개 2.{}: 재고{}개 3.동전넣기 4.동전반환]".format(item1_name, item1_num, item2_name, item2_num)
     
         # 기본적으로 윈도우용 spyder의 console 문제. Pycharm에서 정상작동. 맥에서 정상작동
         # vending_machine_mode = int(raw_input(u"번호를 선택해주세요: ")) # 표기는 문제 없으나 루프에 문제
@@ -59,8 +58,7 @@ item1_num, item2_name, item2_num)
             admin_condition = True
             while admin_condition:
                 print "!!관리자 모드입니다!!"
-                print "[1.{}: 재고{}개 2.{}: 재고{}개 99.나가기]".format(item1_name, 
-item1_num, item2_name, item2_num)
+                print "[1.{}: 재고{}개 2.{}: 재고{}개 99.나가기]".format(item1_name, item1_num, item2_name, item2_num)
                 print "물품의 재고를 채워넣습니다." 
                 adding_item_id = int(raw_input("item id: "))
                 
@@ -73,28 +71,22 @@ item1_num, item2_name, item2_num)
                     if adding_item_id == 1:
                         if item1_num+adding_item_ea <=10:
                             item1_num += adding_item_ea
-                            print "{}을/를 {}개 보충했습니다".format(item1_name, 
-adding_item_ea)
+                            print "{}을/를 {}개 보충했습니다".format(item1_name, adding_item_ea)
                         else:
-                            print "{}은/는 최대재고량에 도달했습니
-다.".format(item1_name)
+                            print "{}은/는 최대재고량에 도달했습니다.".format(item1_name)
                             return_item_ea = adding_item_ea + item1_num -10
                             item1_num = 10
-                            print "{}을/를 {}개 반환했습니다".format(item1_name, 
-return_item_ea)
+                            print "{}을/를 {}개 반환했습니다".format(item1_name, return_item_ea)
                             
                     elif adding_item_id == 2: 
                         if item2_num+adding_item_ea <=10:
                             item2_num += adding_item_ea
-                            print "{}을/를 {}개 보충했습니다".format(item2_name, 
-adding_item_ea)
+                            print "{}을/를 {}개 보충했습니다".format(item2_name, adding_item_ea)
                         else:
-                            print "{}은/는 최대재고량에 도달했습니
-다.".format(item2_name)
+                            print "{}은/는 최대재고량에 도달했습니다.".format(item2_name)
                             return_item_ea = adding_item_ea + item2_num - 10
                             item2_num = 10
-                            print "{}을/를 {}개 반환했습니다".format(item2_name, 
-return_item_ea)
+                            print "{}을/를 {}개 반환했습니다".format(item2_name, return_item_ea)
                     else:
                         print "잘못입력하셨습니다."
             
