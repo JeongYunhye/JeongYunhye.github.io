@@ -11,10 +11,8 @@ Created on Thu Dec 29 18:16:21 2016
 import sys
 print sys.getdefaultencoding()
 # 자판기 
-# TODO: 물건 수급 - 판매중 상태에서 관리자 모드를 활성화 시키는 코드를 입력하
-면 문이 열린다.
-# TODO: 관리자 모드 - 관리자는 물품을 선택하고 해당 물품의 숫자를 보충할 수 
-있다. 
+# TODO: 물건 수급 - 판매중 상태에서 관리자 모드를 활성화 시키는 코드를 입력하면 문이 열린다.
+# TODO: 관리자 모드 - 관리자는 물품을 선택하고 해당 물품의 숫자를 보충할 수 있다. 
 # TODO: 여기에서 10개가 넘으면 저장공간이 꽉 찼다는 메세지를 보낸다. 
 # TODO: 물건을 고르고, 물건을 골랐을 때, 
 # TODO: 비용이 적절하면 물건과 함께 거스름돈이 나온다., 
@@ -47,10 +45,8 @@ while vending_condition:
         print "[1.{}: 재고{}개 2.{}: 재고{}개 3.동전넣기 4.동전반환]".format(item1_name, 
 item1_num, item2_name, item2_num)
     
-        # 기본적으로 윈도우용 spyder의 console 문제. Pycharm에서 정상작동. 맥에서 정
-상작동
-        # vending_machine_mode = int(raw_input(u"번호를 선택해주세요: ")) # 표기는 
-문제 없으나 루프에 문제
+        # 기본적으로 윈도우용 spyder의 console 문제. Pycharm에서 정상작동. 맥에서 정상작동
+        # vending_machine_mode = int(raw_input(u"번호를 선택해주세요: ")) # 표기는 문제 없으나 루프에 문제
         # python 3.x
         # print "번호를 선택해주세요:", end =" " 
         # python 2.7.x
