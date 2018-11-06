@@ -3,9 +3,6 @@
 ```python
 ﻿
 **
-자판기 코딩
-------
-**
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec 29 18:16:21 2016
