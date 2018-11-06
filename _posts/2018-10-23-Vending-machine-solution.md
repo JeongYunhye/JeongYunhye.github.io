@@ -1,5 +1,5 @@
 
-#2018-10-23-Vending-machine-solutionn.md
+#2018-10-23-Vending-machine-solution.md
 
 ##간단하게 자판기 만들어보기
 
