@@ -5,5 +5,5 @@ permalink: /guestbook/
 public: true
 ---
 
-Welcome to this website! Please leave message on comment.  
-덧글로 남겨주시면 답변드리겠습니다. 
+Welcome to my website! Please leave message on comment. Thank you!
+제 블로그 방문을 환영합니다! 덧글로 남겨주시면 답변드리겠습니다. 감사합니다!
